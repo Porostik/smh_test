@@ -1,0 +1,19 @@
+.form-input {
+  min-height: 40px;
+  height: 1px;
+
+  input {
+    background-color: #b6be82;
+    border: none;
+    border-radius: 5px;
+    color: #5d5843;
+    height: 90%;
+    padding: 0 10px;
+  }
+
+  .error {
+    color: red;
+    font-family: Open sans, sans-serif;
+    font-size: 13px;
+  }
+}

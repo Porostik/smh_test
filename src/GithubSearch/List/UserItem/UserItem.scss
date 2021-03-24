@@ -1,0 +1,38 @@
+.users-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #5d5843;
+  background-color: #b6be82;
+  margin-top: 20px;
+  padding: 20px 0;
+
+  .info {
+    background-color: #efdb9d;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .avatar {
+    width: 132px;
+    height: 132px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+
+    .avatarImg {
+      width: auto;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .gh-ref {
+    text-decoration: none;
+    color: #5d5843;
+  }
+}

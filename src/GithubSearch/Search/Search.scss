@@ -1,0 +1,15 @@
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 300px;
+  margin: 20px auto;
+
+  &__button {
+    background-color: #b6be82;
+    color: #5d5843;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+  }
+}
