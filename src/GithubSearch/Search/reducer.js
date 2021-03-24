@@ -1,15 +1,15 @@
 import { githubSearchTypes } from '../constants';
 
 const initialState = {
-  idFilter: '',
+  filter: '',
 };
 
 const userListReducer = (state = initialState, action) => {
   switch (action.type) {
-    case githubSearchTypes.setIdFilter:
+    case githubSearchTypes.setFilter:
       return {
         ...state,
-        idFilter: action.paylod,
+        filter: action.paylod,
       };
     default:
       return state;

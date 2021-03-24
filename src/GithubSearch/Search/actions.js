@@ -1,6 +1,6 @@
 import { githubSearchTypes } from '../constants';
 
-export const setIdFilter = (id) => ({
-  type: githubSearchTypes.setIdFilter,
-  paylod: id,
+export const setFilter = (filterValue) => ({
+  type: githubSearchTypes.setFilter,
+  paylod: filterValue,
 });

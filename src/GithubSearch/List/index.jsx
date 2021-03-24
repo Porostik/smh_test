@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUsersFetch } from './actions';
 import UsersListComponent from './UsersListComponent';
-import { getFiltredByIdUsers } from '../selectors';
+import { getFiltredByLoginUsers } from '../selectors';
 import Loader from './Loader';
 
 function UsersList() {
@@ -11,7 +11,7 @@ function UsersList() {
     isLoading: list.loading,
   }));
 
-  const users = useSelector(getFiltredByIdUsers);
+  const users = useSelector(getFiltredByLoginUsers);
   React.useEffect(() => {
     dispatch(getUsersFetch());
   }, [dispatch]);

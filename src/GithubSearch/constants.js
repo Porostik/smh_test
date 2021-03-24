@@ -7,5 +7,5 @@ export const githubListTypes = {
 };
 
 export const githubSearchTypes = {
-  setIdFilter: 'GH_SEARCH/SEARCH/SET_SEARCH',
+  setFilter: 'GH_SEARCH/SEARCH/SET_SEARCH',
 };

@@ -1,12 +1,12 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import SearchComponent from './SearchComponent';
-import { setIdFilter } from './actions';
+import { setFilter } from './actions';
 
 function Search() {
   const dispatch = useDispatch();
   const onSubmit = (id) => {
-    dispatch(setIdFilter(id));
+    dispatch(setFilter(id));
   };
   return <SearchComponent onSubmit={onSubmit} />;
 }
